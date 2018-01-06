@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帧动画</title>
+    <style>
+        #rabit{
+            width: 120px;
+            height:80px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="rabit"></div>
+
+<script src="animation.js"></script>
+<script>
+    var positions=['0 -854','-174 -852','-349 -852','-524 -852','-698 -852','-873 -848'];
+
+    var rabit=document.getElementById('rabit');
+    var demo=Animation().loadImage('../source/rabbit-big.png').changePosition(rabit,positions).enterFrame(function () {
+        console.log('ok');
+    }).repeate(3).wait(2000).then(function () {
+        console.log('动画完成！');
+    });
+
+</script>
+
+</body>
+</html>

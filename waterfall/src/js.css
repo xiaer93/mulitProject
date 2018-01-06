@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    overflow: scroll;/*在更改图片位置后，滚动条的宽度对于document.body.clientWidth有影响！*/
+}
+#main{
+    position: relative;
+    margin:0 auto;
+}
+#main .img-box{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#main .img-inner{
+    padding: 10px;
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+}
+#main .img-inner img{
+    width: 100%;
+}
+
+/*动画*/
+.on{
+    transition: all 1.0s;
+}
