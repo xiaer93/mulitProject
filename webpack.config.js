@@ -1,7 +1,8 @@
 module.exports={
 
     entry:{
-        animation:'./animationBykeyframe/util/index.js'
+        animation:'./animationBykeyframe/util/index.js',
+        riceDumpling:'./riceDumpling/source/js/index.js'
     },
     output:{
         path:__dirname+'/build',

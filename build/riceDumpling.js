@@ -60,132 +60,206 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */
+/* 0 */,
+/* 1 */,
+/* 2 */,
+/* 3 */,
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* *
- * Created by winack on 2018/1/6 
+ * Created by winack on 2018/1/7 
  */
-var animation=__webpack_require__(1);
+var animation=__webpack_require__(5);
+var transition=__webpack_require__(8);
 
-//图片
-var images = ['rabbit-big.png', 'rabbit-lose.png', 'rabbit-win.png'];
-images.forEach(function (t, number, ts) {
-    ts[number]='../source/'+t;
-});
+function $(selectorText,contentText) {
+    if(!(this instanceof $)){
+        return new $(selectorText,contentText);
+    }
 
-var rightRunningMap = ["0 -854", "-174 -852", "-349 -852", "-524 -852", "-698 -851", "-873 -848"];
-var leftRunningMap = ["0 -373", "-175 -376", "-350 -377", "-524 -377", "-699 -377", "-873 -379"];
-var rabbitWinMap = ["0 0", "-198 0", "-401 0", "-609 0", "-816 0", "0 -96", "-208 -97", "-415 -97", "-623 -97", "-831 -97", "0 -203", "-207 -203", "-415 -203", "-623 -203", "-831 -203", "0 -307", "-206 -307", "-414 -307", "-623 -307"];
-var rabbitLoseMap = ["0 0", "-163 0", "-327 0", "-491 0", "-655 0", "-819 0", "0 -135", "-166 -135", "-333 -135", "-500 -135", "-668 -135", "-835 -135", "0 -262"];
-
-//rabbit
-function $(id) {
-    return document.getElementById(id);
+    contentText=contentText || document;
+    this.query=contentText.querySelectorAll(selectorText);
+    this.query=Array.prototype.slice.apply(this.query);
 }
-var rabbit1=$('rabbit1');
-var rabbit2=$('rabbit2');
-var rabbit3=$('rabbit3');
-var rabbit4=$('rabbit4');
 
-repeat();
-run();
-win();
-lose();
+$.prototype={
+    consotructor:$,
+    add:function (className) {
+        this.query.forEach(function (t, number, ts) {
+            t.classList.add(className);
+        });
+        return this;
+    },
+    remove:function (className) {
+        this.query.forEach(function (t, number, ts) {
+            t.classList.remove(className);
+        });
+        return this;
+    },
+    toggle:function (className) {
+        this.query.forEach(function (t, number, ts) {
+            t.classList.toggle(className);
+        });
+        return this;
+    }
+};
 
-//rabbit1
-function repeat() {
-    var demo=animation().loadImages(images).changePosition(rabbit1,rightRunningMap,images[0]).repeatForver();
-    demo.start(80);
-    
-    var running=true;
-    
-    rabbit1.addEventListener('click',function () {
-        if(running){
-            demo.pause();
-            running=false;
-        }else {
+
+//主体程序
+//场景1
+var scene_1=function () {
+    return {
+        start:function () {
+            $('.c_zongzi_inner').add('c_shake');
+        },
+        stop:function () {
+            $('.c_zongzi_inner').remove('c_shake');
+        }
+    }
+};
+
+var scene_2=function (s1,s3) {
+    var stringImgs=['line_1.png','line_2.png','line_3.png','line_4.png'];
+    var stringPos=[110,140,190,260];
+    stringImgs.forEach(function (t, number, ts) {
+        ts[number]='../source/img/'+t;
+    });
+    //绳子动画
+    var cString=document.getElementsByClassName('c_string')[0];
+    var demo=animation().loadImages(stringImgs).enterFrame(function (success,time) {
+        var index=Math.min(time/demo.interval | 0,stringImgs.length);
+        cString.src=stringImgs[index-1];
+        cString.style.top=stringPos[index-1]+'px';
+        if(index===stringImgs.length){
+            success();
+        }
+    }).repeat(1).wait(500).then(function () {
+        //修改棕肉叶子的opacity属性值？
+        $('.c_zongzirou_old').add('hide');
+        $('.c_zongzirou_new').remove('hide');
+        $('.leaf').remove('hide');
+        $('.c_string').add('hide');
+
+        //左侧文字动画
+        $('.c_text>img').add('img_in');
+        $('.c_text>p').add('p_in');
+    }).wait(1500).then(function () {
+        $('.c_right_leaf').add('right_leaf');
+        $('.c_left_leaf').add('left_leaf');
+    }).wait(1500).then(function () {
+        $('.leaf').add('hide');
+        $('.c_expand_leaf').remove('hide');
+    }).wait(1000).then(function () {
+        demo.dispose();
+        //暂停前一个
+        s1.stop();
+        //启动后一个
+        s3.start();
+    });
+
+    return{
+        start:function () {
+            demo.start(500);
+        }
+    }
+};
+
+
+
+//场景3
+var scene_3=function () {
+    var zongziImgs=['zzr_2.png','zzr_3.png','zzr_4.png','zzr_1.png'];
+    zongziImgs.forEach(function (t, number, ts) {
+        ts[number]='../source/img/'+t;
+    });
+    var zongziText=['t_jixiang.png','t_ruyi.png','t_xingfu.png'];
+    zongziText.forEach(function (t,number,ts) {
+        ts[number]='../source/img/'+t;
+    });
+
+    //文字帧动画，对应的class！
+    var zongziText1=['c_text_step_2','c_text_step_3','c_text_step_4','c_text_step_0'];
+    var zongziText2=['c_text_step_5','c_text_step_6','c_text_step_7','c_text_step_8'];
+
+    var cz=document.getElementsByClassName('c_zongzirou_new')[0];
+    var cz_t1=document.getElementById('c_text_1');
+    var cz_t2=document.getElementById('c_text_2');
+    var zongziLen=zongziImgs.length;
+    var delay=4;
+    var repeat=0;
+    var count=0;
+    var demo=animation().loadImages(zongziImgs).loadImages(zongziText).enterFrame(function (success,time) {
+        var index=Math.min(time/demo.interval | 0,zongziLen);
+        cz.src=zongziImgs[index-1];
+
+        if(repeat%2){
+            cz_t1.className=zongziText1[index-1]+' c_zongzi_text';
+            cz_t2.className=zongziText2[index-1]+' c_zongzi_text';
+        }else{
+            cz_t1.className=zongziText2[index-1]+' c_zongzi_text';
+            cz_t2.className=zongziText1[index-1]+' c_zongzi_text';
+        }
+
+        if(index===zongziLen){
+            //暂停3帧，即动画暂停！
+            count+=1;
+            if(count===delay){
+                if(repeat%2)
+                    cz_t1.src=zongziText[repeat % 3];
+                else
+                    cz_t2.src=zongziText[repeat % 3];
+                success();
+                count=0;
+                repeat=repeat+1;
+            }
+        }
+    }).repeatForver();
+
+    //棕情端午抖动
+    $('.c_text_img').add('c_shake');
+
+    return {
+        start:function () {
+            demo.start(2000/8);
+        },
+        stop:function () {
+            demo.stop();
+        },
+        restart:function () {
             demo.restart();
-            running=true;
         }
-    })
+    }
+};
 
-}
+debugger;
+window.onload=function () {
+    var s1=scene_1();
+    var s3=scene_3();
+    //过度动画！
+    var s2=scene_2(s1,s3);
+    //启动动画
+    s1.start();
 
-//rabbit2
-function run() {
-    var speed=8;
-    var interval=80;
-    var frame=4;    //当前帧
-    var frameLength=6; //帧动画总帧数
-    var initLeft=50; //初始位置
-    var finialLeft=300; //终点位置
-    var right=true;
+    var zold=document.getElementsByClassName('c_zongzirou_old')[0];
+    var zstring=document.getElementsByClassName('c_string')[0];
+    zold.onclick=zstring.onclick=function () {
+        console.log('click');
+        s2.start();
+    };
+};
 
-    rabbit2.style.backgroundRepeat='no-repeat';
-    //循环播放帧，直到到达目的地！而changePosition是只播放一个循环就结束！
-    var demo=animation().loadImages(images).enterFrame(
-        function (success,time) {
-            var ratio=time/interval,
-                left,
-                position;
+/*;*/
 
-            if(right){
-                left=Math.min(initLeft+ratio*speed,finialLeft);
-                position=rightRunningMap[frame].split(' ');
-                if(left===finialLeft){
-                    right=false;
-                    success();
-                    return;
-                }
-            }else{
-                left=Math.max(finialLeft-speed*ratio,initLeft);
-                position=leftRunningMap[frame].split(' ');
-                if(left===initLeft){
-                    right=true;
-                    success();
-                    return;
-                }
-            }
-            //如果帧超过总帧数，则置位0！
-            if(++frame===frameLength){
-                frame=0;
-            }
-            rabbit2.style.backgroundImage='url('+images[0]+')';
-            rabbit2.style.backgroundPosition=position[0]+'px '+position[1]+'px';
-            rabbit2.style.left=left+'px';
-        }
-    ).repeat(2).wait(1000).changePosition(rabbit2, rabbitWinMap, images[2]).then(function () {
-        console.log('Run animation finish');
-    });
-    demo.start(interval);
 
-}
 
-//rabbit3
-function win() {
-    var demo=animation().loadImages(images).changePosition(rabbit3,rabbitWinMap,images[2]).repeat(3).then(function () {
-        console.log('Win repeat 3 times and finished');
-        demo.dispose();
-    });
-    demo.start(200);
-}
-
-//rabbit4
-function lose() {
-    var demo=animation().loadImages(images).changePosition(rabbit4,rabbitLoseMap,images[1]).then(function () {
-        console.log('Lose animation finished');
-        demo.dispose();
-    });
-    demo.start(200);
-}
 
 /***/ }),
-/* 1 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -198,8 +272,8 @@ function lose() {
 //版本号
 var __VERSION__=1.0;
 
-var loadImage=__webpack_require__(2);
-var timeLine=__webpack_require__(3);
+var loadImage=__webpack_require__(6);
+var timeLine=__webpack_require__(7);
 
 //animation标志位
 var STATE_INITIAL=0;
@@ -523,7 +597,7 @@ module.exports=createAnimation;
 
 
 /***/ }),
-/* 2 */
+/* 6 */
 /***/ (function(module, exports) {
 
 /* Created by winack on 2018/1/5 */
@@ -651,7 +725,7 @@ function LoadImage(imgList,callback,timeout) {
 module.exports=LoadImage;
 
 /***/ }),
-/* 3 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -769,6 +843,332 @@ var cancalAnimationFrame=(function () {
 })();
 
 module.exports=TimeLine;
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+/* *
+ * Created by winack on 2018/1/8 
+ */
+
+/**
+ * 过渡动画库
+ */
+var STATE_INITIAL=0;
+var STATE_START=1;
+var STATE_STOP=2;
+
+var TASK_SYNC=1;
+var TASK_ASYNC=2;
+
+function transition() {
+    this.taskQueue=[];
+    this.index=0;
+    this.state=STATE_INITIAL;
+}
+transition.prototype={
+    constructor:transition,
+    _nextTask:function (task) {
+        var me=this;
+        this.index+=1;
+        if(task.wait){
+            setTimeout(me._runTask,task.wait);
+        }else{
+            me._runTask();
+        }
+    },
+    _runTask:function () {
+        //如果任务列表为空，或者执行完成，则复位退出！
+        if(this.taskQueue.length===0 || this.index===this.taskQueue.length){
+            //this.dispose();
+            this.index=0;
+            this.state=STATE_INITIAL;
+            return;
+        }
+
+        var task=this.taskQueue[this.index];
+
+        if(task.type===TASK_SYNC){
+            this._sync(task);
+        }else{
+            this._async(task);
+        }
+    },
+    /**
+     * 执行同步任务，如wait等方法
+     * @param task
+     * @private
+     */
+    _sync:function (task) {
+        var me=this;
+        var taskFn=task.taskFn;
+        var next=function () {
+            me._nextTask(task);
+        };
+        //执行task任务,直接传入_nextTask，会由于this指向发生改变而错误！
+        taskFn(next);
+    },
+    /**
+     * 执行异步任务，为每个异步任务绑定一个requestAnimationFrame
+     * @param task 待执行的异步任务
+     * @private
+     */
+    _async:function (task) {
+        var me=this;
+        var next=function () {
+            //停止当前任务的动画！
+            cancalAnimationFrame(task.taskID);
+            me._nextTask(task);
+        };
+        createTimeLine(task,next);
+    },
+    /**
+     * 添加如任务队列
+     * @param fn 任务的主体
+     * @param type 任务的类型
+     * @returns {transition}
+     * @private
+     */
+    _addTask:function (fn,type) {
+        this.taskQueue.push({
+            taskFn:fn,
+            type:type
+        });
+        return this;
+    },
+    /**
+     * 单个属性变化
+     * @param ele
+     * @param propery
+     * @param value
+     * @param duration
+     * @returns {*}
+     * @private
+     */
+    _loadSingle:function (ele,propery,value,duration) {
+        var currentValue,
+            changes,
+            flag=true;//正负标志，true为正！
+        var taskFn=null;
+        var type='';
+
+        function update() {
+            currentValue=parseInt(window.getComputedStyle(ele)[propery]);
+            changes=value-currentValue;
+            if(changes<0){
+                flag=false;
+                changes=-changes;
+            }
+        }
+        var firstIn=true;
+        taskFn=function (time, next) {
+            if(firstIn){
+                update();
+                firstIn=false;
+            }
+
+            var step=Math.min(time/duration*changes,changes);
+            //opacity属性不含单位，而宽高含有单位，因此需要对变化属性进行判断！
+            if(propery==='opacity'){
+                ele.style[propery]=currentValue+step*(flag?1:-1);
+            }else{
+                ele.style[propery]=currentValue+step*(flag?1:-1)+'px';
+            }
+            //变化完成
+            if(step===changes){
+                next();
+            }
+        };
+        type=TASK_ASYNC;
+        return this._addTask(taskFn,type);
+    },
+    /**
+     * 多个属性同时变化！
+     * @param ele dom元素
+     * @param obj 属性对象，如{'width':300}
+     * @param duration 动画时长！
+     * @private
+     */
+    _loadMulit:function (ele,obj,duration) {
+        //提取过渡属性及其值！
+        var properysCount=0;
+        var objProperys={};
+        for(var key in obj){
+            if(!obj.hasOwnProperty(key)){
+                continue;
+            }
+            if(key && obj[key]){
+                objProperys[key]=obj[key];
+                properysCount+=1;
+            }
+        }
+        //创建对象存储每个属性的特征值！
+        var objCurrentPropery={},
+            objChanges={},
+            objFlag={};//正负标志，true为正！
+        var taskFn=null;
+        var type='';
+
+        function update() {
+            var style=window.getComputedStyle(ele);
+            for(var key in objProperys){
+                objCurrentPropery[key]=parseInt(style[key]);
+                objChanges[key]=objProperys[key]-objCurrentPropery[key];
+                if(objChanges[key]<0){
+                    objFlag[key]=false;
+                    objChanges[key]=-objChanges[key];
+                }else{
+                    objFlag[key]=true;
+                }
+            }
+        }
+        var firstIn=true;
+        taskFn=function (time, next) {
+            //首次执行该任务时，获取元素当前的状态！
+            if(firstIn){
+                update();
+                firstIn=false;
+            }
+            //判断是否所有的属性都完成了动画！
+            //有必要吗？
+            var isFinish=properysCount;
+
+            /**
+             * propery变化的属性
+             * value属性目标值
+             * step变量的量（与时间正相关！）
+             *
+             * changes初始值和目标值的差值！
+             * flag差值的正负！
+             * currentValue初始值！
+             */
+            var propery,value,step;
+            var changes,flag,currentValue;
+            for(var key in objProperys){
+                propery=key;
+                currentValue=objCurrentPropery[propery];
+                value=objProperys[propery];
+                changes=objChanges[propery];
+                flag=objFlag[propery];
+
+                step=Math.min(time/duration*changes,changes);
+                console.log(step);
+                //opacity属性不含单位，而宽高含有单位，因此需要对变化属性进行判断！
+                if(propery==='opacity'){
+                    ele.style[propery]=currentValue+step*(flag?1:-1);
+                }else{
+                    console.log(currentValue+step*(flag?1:-1));
+                    ele.style[propery]=currentValue+step*(flag?1:-1)+'px';
+                }
+
+                //变化完成
+                if(step===changes){
+                    isFinish-=1;
+                }
+            }
+            //所有属性都完成，即执行下一个任务！
+            if(!isFinish){
+                next();
+            }
+        };
+        type=TASK_ASYNC;
+
+        return this._addTask(taskFn,type);
+    },
+    /**
+     * 设置延时N秒再执行下一个任务！！
+     * @param duration
+     * @returns {transition}
+     */
+    wait:function (duration) {
+        var len=this.taskQueue.length;
+        if(len===0){
+            return;
+        }
+        this.taskQueue[len-1].wait=duration;
+        return this;
+    },
+    /**
+     * 设置任务完成后调用函数！
+     * @param callback
+     */
+    then:function (callback) {
+        this.taskQueue.push(callback,TASK_SYNC);
+    },
+    /**
+     * 设定过度动画
+     * @returns {*}
+     */
+    load:function () {
+        if(typeof arguments[1]==='object'){
+            return this._loadMulit.apply(this,arguments);
+        }else{
+            return this._loadSingle.apply(this,arguments);
+        }
+    },
+    start:function () {
+        if(this.state===STATE_START){
+            return;
+        }
+        this.state=STATE_START;
+        this._runTask();
+    },
+    /**
+     * 清空任务列表，释放资源！
+     */
+    dispose:function () {
+        if(this.state!==STATE_INITIAL){
+            //清除所有任务
+            this.taskQueue.length=0;
+            this.state=STATE_INITIAL;
+        }
+    }
+};
+/**
+ * 绑定执行异步task任务！
+ * @param task 待执行的异步任务
+ * @param next 异步任务执行完后开启回调函数！
+ */
+var createTimeLine=function (task,next) {
+    var startTime=+new Date();
+    fn();
+
+    function fn() {
+        var now=+new Date();
+        task.taskID=requestAnimationFrame(fn);
+        //console.log(task.taskID);
+        task.taskFn((now-startTime),next);//传入回调函数和运行时间！
+    }
+};
+/**
+ * 兼容获取定时函数，执行异步任务！
+ * @returns {*|Function}
+ */
+var requestAnimationFrame=(function () {
+    return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        function (task) {
+            return window.setTimeout(task,1000/60);
+        }
+})();
+var cancalAnimationFrame=(function () {
+    return window.cancalAnimationFrame ||
+        window.webkitCancelAnimationFrame ||
+        window.mozCancelAnimationFrame ||
+        window.oCancelAnimationFrame ||
+        function (taskId) {
+            clearTimeout(taskId);
+        }
+})();
+
+function createTransition() {
+    return new transition();
+}
+
+module.exports=createTransition;
 
 /***/ })
 /******/ ]);
