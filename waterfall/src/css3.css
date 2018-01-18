@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    overflow: scroll;/*在更改图片位置后，滚动条的宽度对于document.body.clientWidth有影响！*/
+}
+#main{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin:0 auto;
+}
+#main .img-box{
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+}
+#main .img-inner{
+    padding: 8px;
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+}
+#main .img-inner img{
+    width: 100%;
+}
