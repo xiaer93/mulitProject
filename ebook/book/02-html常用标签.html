@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--定义网页编码信息-->
+        <meta charset="utf-8"/>
+
+        <!--定义网页标题-->
+        <title>html基本介绍</title>
+
+        <!--定义网页信息，方便搜索引擎自动收集网站信息-->
+        <!--定义网页关键词-->
+        <meta name="keywords" content=""/>
+        <!--定义网页描述内容-->
+        <meta name="description" content=""/>
+        <!--/定义网页信息，方便搜索引擎自动收集网站信息-->
+
+        <!--优化网页在移动设备上的显示效果-->
+        <meta name="viewport" content="width=device-width"/>
+
+        <!--定义页面2秒后跳转指定链接。http-equiv还可以对cache、cookie等进行控制！-->
+        <meta http-equiv="refresh" content="2；URL=#">
+
+        <!--导入css样式表-->
+        <link rel="stylesheet" href="../source/css/style.css"/>
+
+        <!--设置网页的小图标-->
+        <link rel="shortcut icon" href="../source/img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../source/img/touchicon.png"/>
+
+        <!--设置css样式-->
+        <style>
+            .g-doc{
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                box-shadow: 1px 1px 5px #aaa;
+            }
+        </style>
+
+        <!--设置js脚本-->
+        <script>
+            window.onload=function () {
+                alert('hello world');
+            }
+        </script>
+
+    </head>
+    <body>
+    <!--主要编辑区域-->
+        <div class="g-doc">
+            <article>
+                <header>
+                    <h1>html基本介绍</h1>
+                </header>
+                <p>html发展历史上，有非常重要的3个版本：html4、xhtml、html5</p>
+                <p>浏览器对html4和xhtml支持良好，而对html5适配不完全。因此，编写格式严格的html语法，了解html5的最新特性！</p>
+                <ul>
+                    <li>所有标签属性加引号 ：&lt;p id="pp"&gt;&lt;/p&gt;</li>
+                    <li>所有标签使用小写形式</li>
+                    <li>属性值不进行省略：&lt;input type="checkbox"  checked="checked"/&gt;</li>
+                    <li>自闭合标签需要闭合</li>
+                </ul>
+            </article>
+        </div>
+    <!--/主要编辑区域-->
+    </body>
+</html>

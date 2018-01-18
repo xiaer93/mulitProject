@@ -1,0 +1,122 @@
+@import "reset.css";
+
+/* 全局样式 */
+/* 全局图片、布局、公共模版和组件等 */
+
+/* 默认样式 */
+a{
+  display: block;
+  text-decoration: none;
+}
+
+/* 共用函数 */
+.f-clearFloat:before,.f-clearFloat:after{
+  content: '';
+  display: table;
+}
+.f-clearFloat:after{
+  clear: both;
+}
+
+/* 布局 */
+.g-header{
+
+}
+.g-main{
+
+}
+.g-footer{
+
+}
+
+/* 模块：导航、菜单、幻灯片等等 */
+
+/* 元件：按钮等等 */
+.u-star-light{
+  background: url(../images/star-light.png) no-repeat center;
+}
+.u-star-dark{
+  background: url(../images/star-dark.png) no-repeat center;
+}
+
+.u-gallery{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.u-gallery-small{
+  width: 25.333%;
+}
+.u-gallery-normal{
+  width:33.333%;
+}
+.u-gallery-big{
+  width: 41.333%;
+}
+
+/* 函数 */
+.f-padding-center{
+  padding: 0 200px;
+}
+
+
+/* head和foot的样式 */
+.g-container{
+  max-width: 1500px;;
+}
+.g-header{
+  height: 110px;
+}
+/* 模块、布局、组件、元件相互独立！ */
+.m-logo{
+  float: left;
+  height: 100%;
+  a{
+    height: 54px;
+    width:180px;
+    margin-top: 40px;
+    text-indent: -9999px;
+    background: url(../images/g-header-logo.png);
+  }
+}
+.m-nav{
+  float: right;
+  /* 在组件嵌套时，谨慎使用元素标签作为后代选择器 */
+  a{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #3b3b3b;
+    line-height: 110px;
+  }
+}
+.g-footer{
+  height: 318px;
+  line-height: 35px;
+  font-size: 16px;
+  background-color: #3b3b3b;
+}
+.m-col{
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+  margin-top: 100px;
+  color: #c9c9c9;
+  .title,.tel,.links{
+    color: #fff;
+  }
+}
+.m-copyright{
+  float: left;
+  margin-top: 100px;
+  color: #fff;
+  .logo{
+    display: block;
+    height: 55px;
+    width: 182px;
+    margin-top: -22px;
+    background: url(../images/g-footer-copyright.png);
+  }
+  .copyright a{
+    color: #fff;
+  }
+}

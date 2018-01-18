@@ -1,0 +1,198 @@
+section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px 6px #aaa;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+}
+/*one*/
+#one {
+  perspective: 1200px;
+  height: 130px;
+}
+#card {
+  position: relative;
+  width: 160px;
+  height: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
+  -ms-transition: transform 0.6s;
+  -o-transition: transform 0.6s;
+  transition: transform 0.6s;
+}
+#card:hover {
+  transform: translateZ(-50px) rotateX(-90deg);
+}
+#card:hover .card-front {
+  opacity: 0;
+}
+#card:hover .card-back {
+  opacity: 1;
+}
+#card > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#one .card-front {
+  z-index: 1;
+  opacity: 1;
+  background-color: rgba(255, 0, 0, 0.5);
+  transform: translateZ(50px);
+  transition: transform 0.6s 0.3s,opacity 0.3s;
+}
+#one .card-back {
+  z-index: 2;
+  opacity: 0;
+  background-color: rgba(0, 0, 255, 0.5);
+  transform: rotateX(90deg) translateZ(50px);
+  transition: transform 0.6s 0.3s,opacity 0.3s;
+}
+/*two*/
+#two {
+  font-size: 0;
+  text-align: center;
+  height: 120px;
+}
+#two:after {
+  line-height: 70px;
+  width: 0.1%;
+  height: 70px;
+  vertical-align: middle;
+  content: '';
+  display: inline-block;
+}
+#two > div {
+  display: inline-block;
+  margin: 0 2px;
+  width: 5px;
+  height: 35px;
+  vertical-align: middle;
+  background-color: crimson;
+}
+#two > div:nth-child(1) {
+  animation: loading 0.8s 0s infinite;
+}
+#two > div:nth-child(2) {
+  animation: loading 0.8s 0.1s infinite;
+}
+#two > div:nth-child(3) {
+  animation: loading 0.8s 0.2s infinite;
+}
+#two > div:nth-child(4) {
+  animation: loading 0.8s 0.3s infinite;
+}
+#two > div:nth-child(5) {
+  animation: loading 0.8s 0.4s infinite;
+}
+@keyframes loading {
+  0% {
+    height: 35px;
+  }
+  25% {
+    height: 70px;
+  }
+  50% {
+    height: 35px;
+  }
+  100% {
+    height: 35px;
+  }
+}
+/*three*/
+#three {
+  height: 120px;
+  text-align: center;
+}
+#three > div {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  border: 5px solid #aaa;
+  border-top-color: crimson;
+  border-radius: 35px;
+  transform: rotate(0);
+  animation: circle 0.6s linear infinite;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+/*4*/
+#four {
+  height: 150px;
+  text-align: center;
+}
+#welcome {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+#welcome > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#welcome .welBG {
+  height: 100%;
+  width: 100%;
+  background: crimson url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1878067600,3935137756&fm=200&gp=0.jpg") no-repeat center;
+  background-size: cover;
+}
+#welcome .welMask {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.6s;
+}
+#welcome .welInfo {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+/*table居中。p子元素为文字节点！*/
+#welcome .welInfo p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+#welcome .welBorder {
+  width: 90px;
+  height: 90px;
+  border: 5px solid;
+  border-radius: 100px;
+  border-color: blue blue crimson crimson;
+  transform: rotate(90deg);
+  opacity: 0.5;
+  transition: all 0.6s;
+}
+#welcome:hover .welMask {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+#welcome:hover .welBorder {
+  opacity: 0.9;
+  transform: rotate(270deg);
+}

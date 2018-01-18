@@ -1,0 +1,187 @@
+@import "global.css";
+@import "skin.css";
+/* banner样式 */
+.m-index-banner {
+  position: relative;
+  height: 570px;
+}
+.m-index-banner .banner-bg {
+  height: 100%;
+  width: 100%;
+  background: url(../images/banner-bg.png);
+}
+.m-index-banner .banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+.m-index-banner .banner-title h2 {
+  font-size: 60px;
+  word-spacing: -20px;
+}
+.m-index-banner .banner-title span {
+  display: inline-block;
+  font-size: 16px;
+}
+.m-index-banner .banner-title i {
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  margin: 0 10px;
+  margin-bottom: 2px;
+  background: #fff;
+}
+.m-index-menu .menu-title {
+  border-top: 4px solid #f34949;
+  text-align: center;
+}
+.m-index-menu .menu-title h2 {
+  position: relative;
+  display: inline-block;
+  width: 156px;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  background: #f34949;
+}
+.m-index-menu .menu-title h2:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 10px 78px;
+  border-bottom-color: #fff;
+}
+.m-index-menu .menu-list {
+  margin-top: 20px;
+}
+.m-index-menu .menu-list .item {
+  float: left;
+  margin-top: 60px;
+  width: 45%;
+  overflow: hidden;
+  color: #555;
+  font-size: 16px;
+}
+.m-index-menu .menu-list .item .food {
+  float: left;
+  color: #555;
+}
+.m-index-menu .menu-list .item .break {
+  float: right;
+  letter-spacing: 4px;
+  margin-right: 30px;
+}
+.m-index-menu .menu-list .item .price {
+  float: right;
+}
+.m-index-menu .menu-list .item .formula {
+  display: block;
+  clear: both;
+  font-size: 12px;
+  color: #bcbcbc;
+}
+.m-index-menu .menu-list .item:nth-child(2n+1) {
+  margin-right: 10%;
+}
+.m-index-menu .menu-button {
+  margin-top: 88px;
+  text-align: center;
+}
+.m-index-menu .menu-button a {
+  display: inline-block;
+  border: 1px solid #d7d5d5;
+  padding: 0.3em 0.6em;
+  color: #d7d5d5;
+}
+.m-index-menu .menu-button a:after {
+  content: '';
+  width: 11px;
+  height: 7px;
+  margin-left: 0.3em;
+  display: inline-block;
+  font-size: inherit;
+  background: url(../images/btn-bottom.png) center no-repeat;
+}
+.m-index-pannel {
+  margin-top: 100px;
+}
+.m-index-pannel .pannel-title {
+  margin: 100px 0;
+  font-size: 20px;
+}
+.m-index-pannel-1 .pannel-dishes {
+  color: #555;
+  font-size: 16px;
+}
+.m-index-pannel-1 .pannel-dishes .item {
+  float: left;
+  width: 21%;
+  margin-right: 5.33%;
+  overflow: hidden;
+}
+.m-index-pannel-1 .pannel-dishes .item:last-child {
+  margin-right: 0;
+}
+.m-index-pannel-1 .pannel-dishes .img {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+}
+.m-index-pannel-1 .pannel-dishes .name {
+  float: left;
+  margin: 15px 0;
+}
+.m-index-pannel-1 .pannel-dishes .price {
+  float: right;
+  margin: 15px 0;
+}
+.m-index-pannel-1 .pannel-dishes .star {
+  clear: both;
+  display: block;
+}
+.m-index-pannel-1 .pannel-dishes .star i {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+}
+.m-index-pannel-1 .pannel-dishes li:nth-child(1) .img {
+  background: url(../images/food-1.png);
+}
+.m-index-pannel-1 .pannel-dishes li:nth-child(2) .img {
+  background: url(../images/food-2.png);
+}
+.m-index-pannel-1 .pannel-dishes li:nth-child(3) .img {
+  background: url(../images/food-3.png);
+}
+.m-index-pannel-1 .pannel-dishes li:nth-child(4) .img {
+  background: url(../images/food-4.png);
+}
+.m-index-pannel-2 {
+  margin-bottom: 200px;
+}
+.m-index-pannel-2 .pannel-gallery {
+  font-size: 0;
+}
+.m-index-pannel-2 .pannel-gallery li {
+  display: inline-block;
+  height: 280px;
+  overflow: hidden;
+  vertical-align: top;
+}
+.m-index-pannel-2 .pannel-gallery img {
+  width: 100%;
+}
+.m-index-pannel-2 .pannel-gallery .u-gallery-small img:nth-child(2) {
+  margin-top: -20px;
+}

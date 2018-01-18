@@ -1,0 +1,59 @@
+/**
+  变量
+  - 数字、颜色、变量可以参与运算！
+  - 设置css值，如：@g-bgColor:#ff0000;
+  - 设置选择器
+  - 设置路径，如img等等！
+  - 设置css属性名
+  - 设置变量
+ */
+@g-bgColor:#ff0000;
+@m-bgColor:@g-bgColor/2+#fff;
+
+@mySelector:m-topic;
+@imgRouter: "../source/img";
+@bgImg: background-image;
+.@{mySelector}{
+  color: #fff;
+  @{bgImg}: url("@{imgRouter}/0.jpg");
+}
+/**
+  混合mixin
+ */
+.g-border{
+  border: 1px solid #ffff00;
+}
+/**
+  嵌套
+ */
+.g-container{
+  padding: 20px;
+  background-color: @g-bgColor;
+  .g-main{
+    background-color: @g-bgColor - #111;
+    //混合方式
+    .g-border();
+  }
+}
+
+/**
+  命名空间
+ */
+#namespace{
+  .m-border{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 5px #eee;
+  }
+}
+.m-topic{
+  //作用域
+  @border-w:20px;
+  margin: @border-w;
+  #namespace>.m-border();
+}
+
+/**
+  导入import，导入方法有多种类型？
+  -
+ */
+@import "global";

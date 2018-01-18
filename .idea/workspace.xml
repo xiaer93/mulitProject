@@ -2,16 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf841861-923d-4619-ada2-64a67b02d6fc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationByFunc/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationByFunc/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationByFunc/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBycss3/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBycss3/src/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBycss3/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBycss3/src/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/source/rabbit-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/source/rabbit-lose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/source/rabbit-win.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/src/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/util/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/util/imageloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/util/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animationBykeyframe/util/timeLiner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/riceDumpling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/caption.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/leaf_expand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/leaf_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/leaf_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/line_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/line_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/line_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/line_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/t_haoyun.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/t_jixiang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/t_ruyi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/t_xingfu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/zz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/zzr_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/zzr_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/zzr_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/img/zzr_4.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/js/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/js/imageloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/js/timeLiner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/source/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/src/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/src/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/riceDumpling/src/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/source/img/caption.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/source/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/source/js/velocity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/source/js/velocity.ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/src/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/velocity/src/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/11.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/12.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/13.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/source/img/9.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/src/css3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/src/jq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/src/js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/waterfall/src/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webSwitch/src/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webSwitch/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webSwitch/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webSwitch/src/index.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/animation.js" afterPath="$PROJECT_DIR$/build/animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/riceDumpling/src/index.css" afterPath="$PROJECT_DIR$/riceDumpling/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/riceDumpling/src/index.html" afterPath="$PROJECT_DIR$/riceDumpling/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/riceDumpling/src/index.less" afterPath="$PROJECT_DIR$/riceDumpling/src/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waterfall/src/index.html" afterPath="$PROJECT_DIR$/waterfall/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,65 +107,106 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mulitProject" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/velocity/src/index.html">
+        <entry file="file://$PROJECT_DIR$/svg/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#731#738#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/waterfall/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="397">
+              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/velocity/src/index.less">
+        <entry file="file://$PROJECT_DIR$/svg/src/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="471">
+              <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/velocity/src/index.js">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svg/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/psd2html/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="277">
+                <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-html介绍.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebook/book/01-html介绍.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="100" column="15" lean-forward="true" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
+            <state relative-caret-position="141">
+              <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <folding>
+                <element signature="e#1598#1602#0" expanded="true" />
+                <element signature="e#1611#1615#0" expanded="true" />
+                <element signature="e#1615#1619#0" expanded="true" />
+                <element signature="e#1621#1625#0" expanded="true" />
+                <element signature="e#1704#1708#0" expanded="true" />
+                <element signature="e#1749#1753#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02-html常用标签.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebook/book/02-html常用标签.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSwitch/src/index.html">
+        <entry file="file://$PROJECT_DIR$/less/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="71" />
-              <folding>
-                <element signature="e#812#2407#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/src/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/src/variables.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -90,37 +215,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSwitch/src/index.less">
+      <file leaf-file-name="global.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/src/global.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSwitch/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/bg.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="caption.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/caption.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -130,9 +231,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -147,22 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/waterfall/source/index.js" />
-        <option value="$PROJECT_DIR$/waterfall/source/index.html" />
-        <option value="$PROJECT_DIR$/waterfall/src/index.js" />
-        <option value="$PROJECT_DIR$/waterfall/src/css3.css" />
-        <option value="$PROJECT_DIR$/waterfall/src/jq.js" />
-        <option value="$PROJECT_DIR$/waterfall/src/js.css" />
-        <option value="$PROJECT_DIR$/waterfall/src/js.js" />
-        <option value="$PROJECT_DIR$/waterfall/readme.md" />
-        <option value="$PROJECT_DIR$/animation/src/index.js" />
-        <option value="$PROJECT_DIR$/animation/src/index.html" />
-        <option value="$PROJECT_DIR$/animationByFunc/readme.md" />
-        <option value="$PROJECT_DIR$/animationBykeyframe/src/index.js" />
-        <option value="$PROJECT_DIR$/animationBykeyframe/src/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/animationBykeyframe/util/imageloader.js" />
-        <option value="$PROJECT_DIR$/animationBykeyframe/util/timeLiner.js" />
         <option value="$PROJECT_DIR$/animationBykeyframe/util/animation.js" />
         <option value="$PROJECT_DIR$/animationBykeyframe/util/index.html" />
         <option value="$PROJECT_DIR$/animationBykeyframe/src/animation.js" />
@@ -180,14 +265,40 @@
         <option value="$PROJECT_DIR$/riceDumpling/src/index.html" />
         <option value="$PROJECT_DIR$/riceDumpling/source/js/index.js" />
         <option value="$PROJECT_DIR$/riceDumpling/src/index.less" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/velocity/src/index.less" />
         <option value="$PROJECT_DIR$/velocity/src/index.js" />
-        <option value="$PROJECT_DIR$/webSwitch/src/index.html" />
-        <option value="$PROJECT_DIR$/webSwitch/src/index.less" />
-        <option value="$PROJECT_DIR$/webSwitch/src/index.js" />
         <option value="$PROJECT_DIR$/velocity/src/index.html" />
         <option value="$PROJECT_DIR$/waterfall/src/index.html" />
+        <option value="$PROJECT_DIR$/webSwitch/src/index.css" />
+        <option value="$PROJECT_DIR$/webSwitch/src/index.html" />
+        <option value="$PROJECT_DIR$/webSwitch/src/index.js" />
+        <option value="$PROJECT_DIR$/webSwitch/src/index.less" />
+        <option value="$PROJECT_DIR$/webSwitch/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/animation/animationBycss3/src/index.css" />
+        <option value="$PROJECT_DIR$/animation/webSwitch/src/index.html" />
+        <option value="$PROJECT_DIR$/animation/webSwitch/src/index.less" />
+        <option value="$PROJECT_DIR$/animation/webSwitch/README.md" />
+        <option value="$PROJECT_DIR$/psd2html/source/js/index.js" />
+        <option value="$PROJECT_DIR$/psd2html/source/css/skin.less" />
+        <option value="$PROJECT_DIR$/psd2html/source/css/common.less" />
+        <option value="$PROJECT_DIR$/psd2html/source/css/reset.less" />
+        <option value="$PROJECT_DIR$/psd2html/src/index.html" />
+        <option value="$PROJECT_DIR$/psd2html/source/css/index.less" />
+        <option value="$PROJECT_DIR$/psd2html/source/css/global.less" />
+        <option value="$PROJECT_DIR$/slide/src/index.html" />
+        <option value="$PROJECT_DIR$/slide/src/index.less" />
+        <option value="$PROJECT_DIR$/slide/src/index.js" />
+        <option value="$PROJECT_DIR$/svg/src/index.js" />
+        <option value="$PROJECT_DIR$/svg/src/index.html" />
+        <option value="$PROJECT_DIR$/svg/src/index.less" />
+        <option value="$PROJECT_DIR$/svg/readme.md" />
+        <option value="$PROJECT_DIR$/psd2html/readme.md" />
+        <option value="$PROJECT_DIR$/ebook/book/01-html介绍.html" />
+        <option value="$PROJECT_DIR$/less/src/index.html" />
+        <option value="$PROJECT_DIR$/less/src/global.less" />
+        <option value="$PROJECT_DIR$/less/src/variables.less" />
+        <option value="$PROJECT_DIR$/less/src/index.less" />
       </list>
     </option>
   </component>
@@ -254,8 +365,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,34 +375,56 @@
             <path>
               <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="velocity" type="462c0819:PsiDirectoryNode" />
+              <item name="ebook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="velocity" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="waterfall" type="462c0819:PsiDirectoryNode" />
+              <item name="slide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="webSwitch" type="462c0819:PsiDirectoryNode" />
+              <item name="slide" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mulitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mulitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="webSwitch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="slide" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,18 +436,19 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\mulitProject\velocity\source\img" />
-      <recent name="E:\GitHub\mulitProject\velocity\source\js" />
-      <recent name="E:\GitHub\mulitProject\velocity\source" />
-      <recent name="E:\GitHub\mulitProject\riceDumpling\source\js" />
-      <recent name="E:\GitHub\mulitProject\riceDumpling\source" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\mulitProject" />
+      <recent name="E:\GitHub\mulitProject\psd2html" />
       <recent name="E:\GitHub\mulitProject\velocity\source\js" />
       <recent name="E:\GitHub\mulitProject\animationBykeyframe\util" />
       <recent name="E:\GitHub\mulitProject\animationBykeyframe\source" />
-      <recent name="E:\GitHub\mulitProject\waterfall\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\mulitProject\less\source\img" />
+      <recent name="E:\GitHub\mulitProject\ebook\book" />
+      <recent name="E:\GitHub\mulitProject\slide\source\imgNew" />
+      <recent name="E:\GitHub\mulitProject\slide\source" />
+      <recent name="E:\GitHub\mulitProject\animation\webSwitch\source" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,30 +481,38 @@
       <workItem from="1515206385955" duration="31464000" />
       <workItem from="1515335186016" duration="4003000" />
       <workItem from="1515385048174" duration="54940000" />
+      <workItem from="1515578764778" duration="10090000" />
+      <workItem from="1515642759362" duration="6129000" />
+      <workItem from="1515910137882" duration="832000" />
+      <workItem from="1515914894837" duration="52904000" />
+      <workItem from="1516158848968" duration="45000" />
+      <workItem from="1516159558934" duration="18165000" />
+      <workItem from="1516201344922" duration="8166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153907000" />
+    <option name="totallyTimeSpent" value="250238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30729166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24925596" sideWeight="0.4914842" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15359478" sideWeight="0.4940476" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08169935" sideWeight="0.4940476" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24925596" sideWeight="0.50851583" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49702382" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.49702382" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -384,407 +524,96 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/util/imageloader.js">
+    <entry file="file://$PROJECT_DIR$/velocity/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.less" />
+    <entry file="file://$PROJECT_DIR$/webSwitch/README.md" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/animation/animationBycss3/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/src/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="e#3385#3468#0" expanded="false" />
-            <element signature="e#3504#3610#0" expanded="false" />
-            <element signature="e#5578#5989#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/util/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8130">
-          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-          <folding>
-            <element signature="e#5522#5837#0" expanded="false" />
-            <element signature="e#5918#6063#0" expanded="false" />
-            <element signature="e#6069#6100#0" expanded="false" />
-            <element signature="e#6122#6207#0" expanded="false" />
-            <element signature="e#6213#6269#0" expanded="false" />
-            <element signature="e#6294#6442#0" expanded="false" />
-            <element signature="e#6468#6683#0" expanded="false" />
-            <element signature="e#7486#7523#0" expanded="false" />
-            <element signature="e#7554#7735#0" expanded="false" />
-            <element signature="e#7766#7950#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/util/lib.js" />
-    <entry file="file://$PROJECT_DIR$/build/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1515470177099" expanded="true" signature="2468:2471" ph="{...}" />
-            <marker date="1515470177099" expanded="true" signature="16555:16558" ph="/*...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/util/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!block;n#repeat#0" expanded="false" />
-            <element signature="n#!!block;n#run#0" expanded="false" />
-            <element signature="n#!!block;n#win#0" expanded="false" />
-            <element signature="n#!!block;n#lose#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/util/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/line_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/line_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-          <folding>
-            <marker date="1515472660655" expanded="true" signature="837:862" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="875:953" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="964:1056" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1150:1194" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1214:1611" ph="..." />
-            <marker date="1515472660655" expanded="true" signature="1221:1252" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1300:1331" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1380:1411" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1459:1490" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1539:1570" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1578:1609" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1612:1625" ph="/*...*/" />
-            <marker date="1515472660655" expanded="true" signature="1852:1876" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1894:1938" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="1939:1952" ph="/*...*/" />
-            <marker date="1515472660655" expanded="true" signature="1959:2019" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="2033:2113" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="2128:2208" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="2224:2253" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="2265:2307" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="2320:2361" ph="{...}" />
-            <marker date="1515472660655" expanded="true" signature="2362:2375" ph="/*...*/" />
-            <marker date="1515472660655" expanded="true" signature="2386:2417" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/line_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/leaf_left.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/leaf_expand.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/leaf_right.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/t_xingfu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/t_ruyi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/t_jixiang.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/t_haoyun.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/line_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/zzr_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/zzr_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/zz.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/zzr_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/zzr_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/js/transition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="320" column="16" lean-forward="false" selection-start-line="320" selection-start-column="16" selection-end-line="320" selection-end-column="16" />
-          <folding>
-            <element signature="e#334#507#0" expanded="false" />
-            <element signature="e#534#943#0" expanded="false" />
-            <element signature="e#949#1018#0" expanded="false" />
-            <element signature="e#1045#1252#0" expanded="false" />
-            <element signature="e#1258#1360#0" expanded="false" />
-            <element signature="e#1388#1597#0" expanded="false" />
-            <element signature="e#1603#1722#0" expanded="false" />
-            <element signature="e#1755#1870#0" expanded="false" />
-            <element signature="e#1876#2020#0" expanded="false" />
-            <element signature="e#2075#3118#0" expanded="false" />
-            <element signature="e#3124#3259#0" expanded="false" />
-            <element signature="e#3303#5890#0" expanded="false" />
-            <element signature="e#5896#5983#0" expanded="false" />
-            <element signature="e#6013#6176#0" expanded="false" />
-            <element signature="e#6182#6236#0" expanded="false" />
-            <element signature="e#6266#6322#0" expanded="false" />
-            <element signature="e#6328#6373#0" expanded="false" />
-            <element signature="e#6395#6588#0" expanded="false" />
-            <element signature="e#6612#6744#0" expanded="false" />
-            <element signature="e#6750#6781#0" expanded="false" />
-            <element signature="e#6806#6959#0" expanded="false" />
-            <element signature="e#7083#7323#0" expanded="false" />
-            <element signature="e#7417#7681#0" expanded="false" />
-            <element signature="e#7724#7968#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/js/imageloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/src/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/js/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="198" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#1300#1631#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/js/timeLiner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="92" column="19" lean-forward="false" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
-          <folding>
-            <element signature="e#3544#4343#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/src/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="234" column="1" lean-forward="true" selection-start-line="234" selection-start-column="1" selection-end-line="234" selection-end-column="1" />
-          <folding>
-            <element signature="e#1219#1649#0" expanded="false" />
-            <element signature="e#2443#2687#0" expanded="false" />
-            <marker date="1515472659999" expanded="true" signature="2516:2564" ph="{...}" />
-            <marker date="1515472659999" expanded="true" signature="2576:2624" ph="{...}" />
-            <marker date="1515472659999" expanded="true" signature="2636:2685" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBykeyframe/readme.md">
+    <entry file="file://$PROJECT_DIR$/animation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1470">
-            <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-            <folding />
+          <first_editor relative-caret-position="810">
+            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animationByFunc/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animationBycss3/readme.md">
+    <entry file="file://$PROJECT_DIR$/animation/animationBycss3/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/animation/webSwitch/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="52" column="23" lean-forward="false" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/webSwitch/src/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7560">
+          <caret line="252" column="1" lean-forward="false" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation/webSwitch/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
-            <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            <folding />
+          <first_editor relative-caret-position="450">
+            <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/velocity/source/js/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/psd2html/source/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/velocity/source/js/velocity.min.js">
+    <entry file="file://$PROJECT_DIR$/psd2html/source/css/skin.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riceDumpling/source/img/caption.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/velocity/src/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/velocity/src/index.js">
+    <entry file="file://$PROJECT_DIR$/psd2html/source/css/reset.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="100" column="15" lean-forward="true" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
-          <folding />
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/psd2html/source/images/star-light.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -792,47 +621,268 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.less">
+    <entry file="file://$PROJECT_DIR$/psd2html/source/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="257">
+          <caret line="179" column="1" lean-forward="true" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.js">
+    <entry file="file://$PROJECT_DIR$/psd2html/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="-434">
+          <caret line="145" column="42" lean-forward="false" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSwitch/src/index.html">
+    <entry file="file://$PROJECT_DIR$/psd2html/source/css/global.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="71" />
-          <folding>
-            <element signature="e#812#2407#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="118" column="15" lean-forward="true" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/velocity/src/index.html">
+    <entry file="file://$PROJECT_DIR$/waterfall/src/jq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#731#738#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/src/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/src/js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/src/css3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/waterfall/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/source/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/source/img/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/source/img/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/source/img/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall/source/img/6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/source/img/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/source/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/source/img/26.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/source/imgNew/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/source/imgNew/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="114" column="14" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1023#1027#1" expanded="true" />
+            <element signature="e#1066#1070#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/src/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+          <folding>
+            <element signature="e#373#598#0" expanded="false" />
+            <element signature="e#2466#2521#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slide/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="300" column="5" lean-forward="false" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#69#4259#0" expanded="false" />
+            <element signature="e#894#1015#0" expanded="false" />
+            <element signature="e#1046#1167#0" expanded="false" />
+            <element signature="e#1220#1426#0" expanded="false" />
+            <element signature="e#1470#2862#0" expanded="false" />
+            <element signature="e#2114#2152#0" expanded="false" />
+            <element signature="e#2867#2934#0" expanded="false" />
+            <element signature="e#2971#3296#0" expanded="false" />
+            <element signature="e#3301#3326#0" expanded="false" />
+            <element signature="e#3610#3900#0" expanded="false" />
+            <element signature="e#3947#4223#0" expanded="false" />
+            <element signature="e#5061#5103#0" expanded="false" />
+            <element signature="e#5530#6084#0" expanded="false" />
+            <element signature="e#6945#8009#0" expanded="false" />
+            <element signature="e#8041#8636#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="123" column="7" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#updateShape#0" expanded="false" />
+            <element signature="n#!!block;n#getOptionsFromPannel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/src/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psd2html/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="277">
+            <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebook/book/01-html介绍.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#1598#1602#0" expanded="true" />
+            <element signature="e#1611#1615#0" expanded="true" />
+            <element signature="e#1615#1619#0" expanded="true" />
+            <element signature="e#1621#1625#0" expanded="true" />
+            <element signature="e#1704#1708#0" expanded="true" />
+            <element signature="e#1749#1753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebook/book/02-html常用标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/src/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/src/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/src/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>

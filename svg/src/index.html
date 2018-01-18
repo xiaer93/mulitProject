@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>svg</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<main class="g-main">
+    <div class="g-ctrl">
+        <form class="m-ctrl" action="">
+            <fieldset class="createShape">
+                <legend>创建图形</legend>
+                <button name="rect" class="u-btn">矩形</button>
+                <button name="circle" class="u-btn">圆形</button>
+                <button name="ellipse" class="u-btn">椭圆</button>
+                <button name="line" class="u-btn">直线</button>
+            </fieldset>
+            <fieldset class="ownProperty">
+                <legend>修改图形属性</legend>
+                <p class="u-ctrl u-ctrl-1">
+                    <label for="svg-x">x</label><input id="svg-x" type="range">
+                </p>
+                <p class="u-ctrl u-ctrl-1">
+                    <label for="svg-y">x</label><input id="svg-y" type="range">
+                </p>
+            </fieldset>
+            <fieldset class="comProperty">
+                <legend>修改画笔属性</legend>
+                <p class="u-ctrl u-ctrl-2">
+                    <label for="svg-fc">fillColor</label><input id="svg-fill" type="color" value="#000000">
+                </p>
+                <p class="u-ctrl u-ctrl-2">
+                    <label for="svg-sc">strokeColor</label><input id="svg-stroke" type="color" value="#000000">
+                </p>
+                <p class="u-ctrl u-ctrl-2">
+                    <label for="svg-sw">strokeWidth</label><input id="svg-stroke-width" type="number" min="0" max="100" value="0">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <div class="g-canvas">
+        <svg class="m-canvas" xmlns="http://www.w3.org/2000/svg">
+            <circle r="50" cx="100" cy="100" stroke=""></circle>
+        </svg>
+    </div>
+</main>
+
+
+<script src="index.js"></script>
+</body>
+</html>

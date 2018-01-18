@@ -1,0 +1,242 @@
+/**
+ 样式清零
+ */
+body,
+input {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.st-nav {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.st-nav input,
+.st-nav a {
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.st-nav input {
+  z-index: 9999;
+  opacity: 0;
+  cursor: pointer;
+}
+.st-nav a {
+  z-index: 1;
+  background-color: rgba(220, 20, 60, 0.61);
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #000;
+}
+.st-nav input:hover + a {
+  background-color: rgba(255, 136, 90, 0.9);
+}
+#st-nav-p1,
+#st-nav-p1 + a {
+  left: 0%;
+}
+#st-nav-p2,
+#st-nav-p2 + a {
+  left: 20%;
+}
+#st-nav-p3,
+#st-nav-p3 + a {
+  left: 40%;
+}
+#st-nav-p4,
+#st-nav-p4 + a {
+  left: 60%;
+}
+#st-nav-p5,
+#st-nav-p5 + a {
+  left: 80%;
+}
+.st-nav input:checked + a {
+  background-color: #dc143c;
+}
+.st-nav input:checked + a:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border: 20px solid transparent;
+  border-bottom-color: #dc143c;
+  margin-left: -20px;
+}
+/**
+ main的样式
+ */
+.container {
+  overflow: hidden;
+}
+.st-main {
+  width: 100%;
+  height: 100%;
+  transform: translate3D(0, 0, -1px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 0.6s;
+}
+.st-main section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.st-main section h2 {
+  width: 100%;
+  margin-top: 3em;
+  font-size: 6em;
+  display: inline-block;
+  transition: all 0.6s 0.6s;
+}
+.st-main section p {
+  width: 50%;
+  font-size: 2em;
+  margin-top: 1em;
+  display: inline-block;
+  transition: all 0.6s 0.6s;
+}
+.st-pannel-icon {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 0;
+  height: 0;
+  margin-left: -120px;
+  border: 120px solid transparent;
+  border-top-color: cornflowerblue;
+}
+.st-main > section:nth-of-type(2n) {
+  background-color: cornflowerblue;
+}
+.st-main > section:nth-of-type(2n) > div {
+  border-top-color: white;
+}
+.up {
+  transform: translateY(-20px);
+}
+.down {
+  transform: translateY(20px);
+}
+/**
+ 闪动如何解决？
+ animation可以定义:animation-fill-mode!
+  - none不改变默认行为
+  - forwards当动画完成后，保持最后一个关键帧
+  - backwards在delay时间内，在动画开始前，显示第一个关键帧;
+  - both应用forwards和backwards！
+
+
+ inherit继承
+ initial默认值
+ unset如果属性可继承则继承，否则默认值！
+ unset如果属性设置了值则直接显示，否则继承，再否则默认！
+ */
+.slideDown {
+  animation: slideDown 0.6s 0.5s 1;
+  animation-fill-mode: backwards;
+}
+.slideUp {
+  animation: slideUp 0.6s 0.5s 1;
+  animation-fill-mode: backwards;
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+破坏了文档结构，暂时不推荐使用纯css实现切换！
+.st-nav input:checked ~ .st-main{
+  background-color: black;
+}*/
+@media screen and (max-width: 380px) {
+  body {
+    font-size: 8px;
+  }
+  .st-main > section > p {
+    width: 90%;
+  }
+}
+/**
+ 导入font-face字体！
+ */
+@font-face {
+  font-family: 'fontello';
+  src: url('../source/font/fontello.eot?6848649');
+  src: url('../source/font/fontello.eot?6848649#iefix') format('embedded-opentype'), url('../source/font/fontello.woff?6848649') format('woff'), url('../source/font/fontello.ttf?6848649') format('truetype'), url('../source/font/fontello.svg?6848649#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.st-pannel-icon {
+  color: #fff;
+}
+.st-pannel-icon:after {
+  display: block;
+  position: absolute;
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5em;
+  transform: translate(-50%, -200%);
+}
+.st-main > section:nth-child(2n) .st-pannel-icon {
+  color: cornflowerblue;
+}
+#st-pannel-1 .st-pannel-icon:after {
+  content: '\e800';
+}
+#st-pannel-2 .st-pannel-icon:after {
+  content: '\e801';
+}
+#st-pannel-3 .st-pannel-icon:after {
+  content: '\f09e';
+}
+#st-pannel-4 .st-pannel-icon:after {
+  content: '\f164';
+}
+#st-pannel-5 .st-pannel-icon:after {
+  content: '\f0b2';
+}

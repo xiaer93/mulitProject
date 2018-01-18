@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <meta name="keywords" content="轮播图">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<div class="m-slide">
+    <div class="imgs">
+        <img src="../source/img/22.jpg" alt="22">
+        <!--轮播的5张图片-->
+        <img src="../source/img/26.jpg" alt="26">
+        <img src="../source/img/25.jpg" alt="25">
+        <img src="../source/img/24.jpg" alt="24">
+        <img src="../source/img/23.jpg" alt="23">
+        <img src="../source/img/22.jpg" alt="22">
+        <!--/轮播的5张图片-->
+        <img src="../source/img/26.jpg" alt="26">
+    </div>
+    <!--按钮-->
+    <div class="btns">
+        <span data-index="1" class="z-choose"></span>
+        <span data-index="2"></span>
+        <span data-index="3"></span>
+        <span data-index="4"></span>
+        <span data-index="5"></span>
+    </div>
+    <!--方向键-->
+    <span class="dir dir-prev">&lt;</span>
+    <span class="dir dir-next">&gt;</span>
+</div>
+
+<div class="m-slide-new">
+    <div class="main">
+        <!--模版创建html内容-->
+        <div class="main-item main-item-{{index}} {{right}}">
+            <img src="{{img}}" alt="" class="img-big">
+            <h3 class="title-1">{{h3}}</h3>
+            <h4 class="title-2">{{h4}}</h4>
+        </div>
+        <!--/模版创建html内容-->
+    </div>
+    <div class="ctrs">
+        <!--模版创建html内容-->
+        <a class="ctrs-item" data-index="{{index}}">
+            <img src="{{img}}" alt="" class="img-small">
+        </a>
+        <!--/模版创建html内容-->
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

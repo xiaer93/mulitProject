@@ -1,0 +1,218 @@
+/**
+  reset
+ */
+
+body,h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+
+
+@imgWidth:480px;
+
+.m-slide .dir,
+.m-slide .btns,
+.m-slide .btns span{
+  cursor: pointer;
+}
+
+.m-slide{
+  position: relative;
+  width: @imgWidth;
+  height: 300px;
+  margin: 20px auto;
+  box-shadow:0px 0px 0px 5px #888888 inset,0px 0px 0px 5px #000000, 0px 0px 0px 10px #ff0000;
+  overflow: hidden;
+  .imgs{
+    position: absolute;
+    width: @imgWidth * 7;
+    height: 100%;
+    top:0;
+    left:-@imgWidth;
+    /*transition: all 0.8s;使用css3动画不方便精准控制！轮播图使用js的定时器实现动画*/
+
+    img{
+      float: left;
+      width: @imgWidth;
+    }
+  }
+  .btns{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    padding: 5px 10px;
+    border-radius: 15px;
+    word-spacing: 10px;
+    background-color: rgba(0,0,0,0.1);
+    transform: translate(-50%,0);
+    span{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background-color: #ff885a;
+    }
+    &:hover{
+      background-color: rgba(0,0,0,0.5);
+    }
+  }
+  .dir{
+    position: absolute;
+    display: block;
+    top:50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    transform: translate(0,-50%);
+    background-color: rgba(125,125,125,0.8);
+    opacity: 0;
+    transition: all 0.6s;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+  }
+
+  .dir-prev{
+    left: 20px;
+  }
+  .dir-next{
+    right: 20px;
+  }
+  /* 鼠标滑过显示方向键 */
+  &:hover .dir{
+    opacity:0.8;
+  }
+}
+/* 选中后的圆点样式，状态class，可以作为模块的后代选择器 */
+.m-slide .btns .z-choose{
+  background-color: #ffff00;
+}
+
+
+.m-slide-new{
+  position: relative;
+  width:100%;
+  height: 400px;
+  margin: 80px 0;
+  overflow: hidden;
+  .main,.main-item{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+  }
+  .main-item{
+    left:-50%;
+    opacity: 0;
+    transition: all 0.8s;
+    .img-big{
+      position: relative;
+      width: 100%;
+    }
+    .title-1,.title-2{
+      position: absolute;
+      top: 25%;
+      left: 15%;
+      width: 180px;
+      color: #b5b5b5;
+      font-size: 30px;
+      text-align: right;
+      opacity: 0;
+      transition: all 0.6s 0.5s;
+    }
+    .title-2{
+      top:35%;
+      left: 25%;
+      color: #000;
+      font-size: 60px;
+      font-family: Ebrima;
+      text-align: left;
+    }
+  }
+
+  .main-item-bg{
+    left:0;
+    opacity: 1;
+    transition: none;
+  }
+
+  .main-item-right{
+    left:50%;
+  }
+
+  .main-item-active{
+    left: 0;
+    opacity:1;
+    .title-1,.title-2{
+      opacity: 1;
+      left: 20%;
+    }
+  }
+  .ctrs{
+    position: absolute;
+    z-index: 3;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 13px;
+    font-size: 0;
+    text-align: center;
+    .ctrs-item,.ctrs-item-choose{
+      display: inline-block;
+      width:12%;
+      height: 13px;
+      background-color: #b5b5b5;
+      cursor: pointer;
+    }
+
+    .ctrs-item{
+      position: relative;
+      .img-small{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        bottom: 0;
+        left:0;
+        opacity:0;
+        transition: all 0.6s;
+      }
+      &:hover{
+        background-color: #555;
+        .img-small{
+          bottom: 13px;
+          opacity:1;
+        }
+      }
+    }
+
+    .ctrs-item-choose{
+      position: absolute;
+      left: 0;
+      background-color: #ff885a;
+      transition: all 0.6s;
+    }
+
+    .ctrs-item-active{
+      background-color: #555;
+    }
+  }
+}
+
+/**
+ 动画函数
+ */
+.a-slideIn{
+
+}
+@keyframes slideIn {
+  
+}
+@keyframes slideOut {
+  
+}
